@@ -1,0 +1,145 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #000;
+}
+
+header {
+	background-color: #000000;
+	padding: 10px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adiciona sombra cinza */
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+}
+
+nav ul li {
+	margin:10px;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 16px;
+	transition: all 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+	color: #ED1C24;
+}
+
+/* Conteúdo do site abaixos */
+
+
+main {
+	max-width: 1200px;
+	margin: 0 auto;
+	background-color: #000;
+}
+/* Banner */
+section#banner {
+	background: url(imagens/li.jpg); /*Banner Imagem*/
+	background-size: cover;
+	background-position: center;
+	height: 132vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #FFF;
+	backdrop-filter: blur(8px); /* Adiciona o efeito de embaçamento */
+}
+
+/* "Conehça nossas Novel" */
+section#banner a:hover {
+	color: #ED1C24;
+}
+
+strong {
+    position: absolute;
+    bottom: 13%;
+    right: 30%;
+    font-size: 5vh;
+}
+
+/* Imagem do Banner */
+div img {
+    position: relative;
+    bottom: 8%;
+}
+
+.xyrus {
+    position: absolute;
+}
+
+.xyrus img {
+    width: 24rem;
+    bottom: -1rem;
+    right: -1rem;
+    border-radius: 168px;
+}
+
+/* Configurações do tema Destaques */
+
+section#destaques {
+    bottom: 11rem;
+    position: relative;
+    left: -2rem;
+}
+
+section#destaques img{
+width: 30%;
+border-radius: 10%;
+position: relative;
+bottom: -8rem;
+}
+
+section h1 {
+    font-size: 7rem;
+    bottom: 38%;
+    position: absolute;
+    font-family: cursive;
+    color: #1010108a;
+    right: 12rem;
+}
+section p {
+	font-size: 1rem;
+	color: #fff;
+}
+
+section h2 {
+	font-size: 2rem;
+	color: #fff;
+	position: relative;
+    bottom: -8rem;
+}
+
+section li h3 {
+	font-size: 1.5rem;
+	color: #fff;
+}
+
+section a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 2rem;
+	border-radius: 10%;
+}
+
+section#destaques img{
+	width: 30%;
+	border-radius: 10%;
+}
+
+/* Footer */
+footer{
+	text-align: center;
+	color: #fff;
+}

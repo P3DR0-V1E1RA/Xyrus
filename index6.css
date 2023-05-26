@@ -1,0 +1,55 @@
+	body{
+        background-color: #333;
+    }
+    header{
+	background-color: #333;
+	color: rgb(255, 0, 0);
+	padding: 20px;
+}
+
+
+nav ul{
+	list-style: none;
+}
+nav li{
+	display: inline-block;
+	margin-right: 20px;
+}
+nav a{
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+.destaque{
+	background-color: white;
+	border: 1px solid #ccc;
+	padding: 20px;
+	margin-top: 20px;
+}
+
+.noticias{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 200px;
+}
+
+img{
+	width: 80%;
+}
+article{
+background-color: white;
+border: 1px solid #ccc;
+padding: 20px;
+margin-bottom: 20px; 
+
+}
+
+footer{
+
+background-color: #333;
+color: white;
+font-size: 18px;
+text-align: center;
+bottom: 0;
+width: 100%;
+}
